@@ -8,4 +8,5 @@ It includes analysis and plotting of:
   5. End-to-end distance from trajectory file of the simulation.
 
 Each analysis and plotting is encapsulated into function form in separate .py files.
+Some of the .py files include a function named analyze_multiple_xxx(). This allows plotting results from multiple simulations into 1 single plot. In those functions please change the file path(s) in places indicated by "# to be changed".
 More instructions on pre-conditions can be found in the file "MD data processing.py", or contact author at keyuwang_corin@hotmail.com.
